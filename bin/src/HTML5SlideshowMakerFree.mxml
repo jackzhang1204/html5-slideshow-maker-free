@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009"
+					   xmlns:s="library://ns.adobe.com/flex/spark"
+					   xmlns:mx="library://ns.adobe.com/flex/mx"
+					   showStatusBar="false"
+					   skinClass="com.anvsoft.skins.WindowedApplicationSkin"
+					   xmlns:container="com.anvsoft.components.container.*"
+					   xmlns:header="com.anvsoft.components.header.*"
+					   xmlns:footer="com.anvsoft.components.footer.*"
+					   frameRate="30"
+					   preinitialize="new AppMain(this)">
+	
+	<fx:Style source="kingnarestyle.css"/>
+	<fx:Style source="defaults.css"/>
+	<s:layout>
+		<s:VerticalLayout gap="0"/>
+	</s:layout>
+	<!--1.HSMHeadCom-->
+	<header:HSMHeaderCom width="100%" height="50"/>
+	<!--2.HSMContainerCom-->
+	<container:HSMContainerCom id="hsmContainerCom" width="100%" height="100%"/>
+	<!--3.HSMFooterCom-->
+	<footer:HSMFooterCom width="100%" height="24"/>
+</s:WindowedApplication>

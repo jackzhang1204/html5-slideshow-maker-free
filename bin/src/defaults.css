@@ -1,0 +1,12 @@
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+
+global {
+	/*Mac system text font family*/
+	/*fontFamily: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Tahoma, Arial, Verdana, 'Trebuchet MS', sans-serif, _sans;*/
+	
+	/*Windows system text font family*/
+	fontFamily: 'Segoe UI', Tahoma, Trebuchet MS, 'MS Sans Serif', Verdana, Arial;
+	
+	font-size: 12px;
+}

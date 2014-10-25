@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:BorderContainer xmlns:fx="http://ns.adobe.com/mxml/2009"
+				   xmlns:s="library://ns.adobe.com/flex/spark" 
+				   xmlns:mx="library://ns.adobe.com/flex/mx"
+				   width="400"
+				   height="250"
+				   backgroundImage="@Embed('assets/img/about.jpg')"
+				   creationComplete="creationCompleteHandler(event)"
+				   click="thisClickHandler(event)">
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			import mx.managers.PopUpManager;
+			[Bindable]
+			private var version:String = AppMain.VERSION;
+			[Bindable]
+			private var copyright:String = AppMain.AUTHOR;
+			
+			private function thisClickHandler(event:MouseEvent):void
+			{
+				PopUpManager.removePopUp(this);
+			}
+			private function creationCompleteHandler(event:FlexEvent):void
+			{
+				this.x = (this.parent.width - this.width)/2;
+				this.y = (this.parent.height - this.height)/2;
+			}
+		]]>
+	</fx:Script>
+	
+	<s:Label text="{version}"
+			 left="25"
+			 bottom="65"
+			 color="0xffffff"
+			 fontWeight="bold"/>
+	
+	<s:Label text="{copyright}"
+			 horizontalCenter="0"
+			 bottom="3"
+			 color="0xffffff"
+			 fontWeight="bold"
+			 fontSize="12"/>
+	
+</s:BorderContainer>

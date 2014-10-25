@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting:PropertiesPanelAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		  xmlns:s="library://ns.adobe.com/flex/spark" 
+		  xmlns:mx="library://ns.adobe.com/flex/mx"
+		  xmlns:setting="com.anvsoft.components.container.photo.setting.*">
+	
+	<s:BorderContainer horizontalCenter="0" verticalCenter="0" backgroundColor="0x434343">
+		<s:HGroup width="700" height="150"
+				  top="10" bottom="10" left="10" right="10">
+			<s:VGroup id="leftArea" width="50%" height="100%">
+				<s:Label id="imgTitleLabel" text="Image Title:"/>
+				<s:TextInput id="imgTitle" width="100%"/>
+				<s:Label id="descriptionLabel" text="Description:" width="100%"/>
+				<s:TextArea id="imgDescription" width="100%" height="100%"/>
+			</s:VGroup>
+			<s:Spacer width="15"/>
+			<s:BorderContainer width="50%" height="100%" backgroundColor="0x434343" cornerRadius="5">
+				<s:VGroup width="100%" height="100%"
+						  top="5" bottom="5" left="5" right="5">
+					<s:Label id="linkLabel" text="Link:" paddingTop="-10"/>
+					<s:TextInput id="imgURL" width="100%"/>
+					<s:VGroup width="100%" height="100%"
+							  horizontalAlign="center" verticalAlign="middle">
+						<s:Button id="openURL" label="Validate Link" width="160"/>
+						<s:Button id="applyToSelected" label="Apply to Selected" width="160"/>
+						<s:Button id="applyToAll" label="Apply to All" width="160"/>
+					</s:VGroup>
+				</s:VGroup>
+			</s:BorderContainer>
+		</s:HGroup>
+	</s:BorderContainer>
+</setting:PropertiesPanelAS>

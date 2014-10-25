@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=$Encoding" />
+
+<title>$AlbumTitle</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style>
+</head>
+<body>
+  <div id="anvsoftJavaScriptSlideshow" style="width: $MovieWidth; height: $MovieHeight; position: relative;">
+	<script src="$MainSWF"></script>
+	<script>anvsoftJavaScriptSlideshow.init("anvsoftJavaScriptSlideshow");</script>
+  </div>
+</body>
+</html>

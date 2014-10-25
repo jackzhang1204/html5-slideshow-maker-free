@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fileexplorer:FilePreviewAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+							  xmlns:s="library://ns.adobe.com/flex/spark" 
+							  xmlns:mx="library://ns.adobe.com/flex/mx"
+							  xmlns:fileexplorer="com.anvsoft.components.container.photo.setting.fileexplorer.*">
+	
+	<s:VGroup>
+		<s:BorderContainer id="borderContainer"
+						  
+						   borderColor="0x333333"
+						   borderWeight="2"
+						   dropShadowVisible="true"
+						   width="80"
+						   height="60">
+			<s:Image id="fileImg"
+					 width="100%"
+					 height="100%"/>
+		</s:BorderContainer>
+		<s:Label id="fileTitle"
+				 width="80"
+				 height="14"
+				 textAlign="center"/>
+	</s:VGroup>
+</fileexplorer:FilePreviewAS>

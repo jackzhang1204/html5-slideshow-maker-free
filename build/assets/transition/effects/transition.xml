@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Flash_Slide_Show_Transition version="1.00" Transition_count="68">
+    <transition_data id="0" name="Random" description="Random" thumbnail_image="1.png" enabled="true"/>
+    <transition_data id="1" name="Wipe from top left corner" description="Wipe from top left corner" thumbnail_image="2.png" enabled="true"/>
+    <transition_data id="2" name="Wipe from left to right" description="Wipe from left to right" thumbnail_image="3.png" enabled="true"/>
+    <transition_data id="3" name="Wipe from top to bottom" description="Wipe from top to bottom" thumbnail_image="4.png" enabled="true"/>
+    <transition_data id="4" name="Wipe from right to left" description="Wipe from right to left" thumbnail_image="5.png" enabled="true"/>
+	
+    <transition_data id="5" name="Wipe from bottom to top" description="Wipe from bottom to top" thumbnail_image="6.png" enabled="true"/>
+    <transition_data id="6" name="Wipe to vertical center" description="Wipe to vertical center" thumbnail_image="7.png" enabled="true"/>
+    <transition_data id="7" name="Wipe to horizontal center" description="Wipe to horizontal center" thumbnail_image="8.png" enabled="true"/>
+    <transition_data id="8" name="Wipe from vertical center" description="Wipe from vertical center" thumbnail_image="9.png" enabled="true"/>
+    <transition_data id="9" name="Wipe from horizontal center" description="Wipe from horizontal center" thumbnail_image="10.png" enabled="true"/>
+	
+    <transition_data id="10" name="Vertical window blind" description="Vertical window blind" thumbnail_image="11.png" enabled="true"/>
+    <transition_data id="11" name="Horizontal window blind" description="Horizontal window blind" thumbnail_image="12.png" enabled="true"/>
+    <transition_data id="12" name="Mosaic" description="Mosaic" thumbnail_image="13.png" enabled="true"/>
+    <transition_data id="13" name="Wipe rectangle" description="Wipe rectangle" thumbnail_image="14.png" enabled="true"/>
+    <transition_data id="14" name="Multi-wipe from right" description="Multi-wipe from right" thumbnail_image="15.png" enabled="false"/>
+	
+    <transition_data id="15" name="Multi-wipe from top" description="Multi-wipe from top" thumbnail_image="16.png" enabled="false"/>
+    <transition_data id="16" name="Multi-wipe from bottom" description="Multi-wipe from bottom" thumbnail_image="17.png" enabled="false"/>
+    <transition_data id="17" name="Multi-wipe from top left corner" description="Multi-wipe from top left corner" thumbnail_image="18.png" enabled="false"/>
+    <transition_data id="18" name="Multi-wipe from top right corner" description="Multi-wipe from top right corner" thumbnail_image="19.png" enabled="false"/>
+    <transition_data id="19" name="Multi-wipe from bottom left corner" description="Multi-wipe from bottom left corner" thumbnail_image="20.png" enabled="false"/>
+	
+    <transition_data id="20" name="Multi-wipe from bottom right corner" description="Multi-wipe from bottom right corner" thumbnail_image="21.png" enabled="false"/>
+    <transition_data id="21" name="Wipe from bottom right corner" description="Wipe from bottom right corner" thumbnail_image="22.png" enabled="true"/>
+    <transition_data id="22" name="Wipe from top right corner" description="Wipe from top right corner" thumbnail_image="23.png" enabled="true"/>
+    <transition_data id="23" name="Wipe from bottom left corner" description="Wipe from bottom left corner" thumbnail_image="24.png" enabled="true"/>
+    <transition_data id="24" name="Wipe from corners" description="Wipe from corners" thumbnail_image="25.png" enabled="true"/>
+	
+    <transition_data id="25" name="Wipe from corner" description="Wipe from corner" thumbnail_image="26.png" enabled="false"/>
+    <transition_data id="26" name="Multiple round wipe" description="Multiple round wipe" thumbnail_image="27.png" enabled="false"/>
+    <transition_data id="27" name="Dropping wipe" description="Dropping wipe" thumbnail_image="28.png" enabled="true"/>
+    <transition_data id="28" name="Wipe heart" description="Wipe heart" thumbnail_image="29.png" enabled="false"/>
+    <transition_data id="29" name="Fade in" description="Fade in" thumbnail_image="30.png" enabled="true"/>
+	
+    <transition_data id="30" name="Move from left" description="Move from left" thumbnail_image="31.png" enabled="true"/>
+    <transition_data id="31" name="Move from left with fade" description="Move from left with fade" thumbnail_image="32.png" enabled="true"/>
+    <transition_data id="32" name="Move from right" description="Move from right" thumbnail_image="33.png" enabled="true"/>
+    <transition_data id="33" name="Move from right with fade" description="Move from right with fade" thumbnail_image="34.png" enabled="true"/>
+    <transition_data id="34" name="Move from top" description="Move from top" thumbnail_image="35.png" enabled="true"/>
+	
+    <transition_data id="35" name="Move from top with fade" description="Move from top with fade" thumbnail_image="36.png" enabled="true"/>
+    <transition_data id="36" name="Move from bottom" description="Move from bottom" thumbnail_image="37.png" enabled="true"/>
+    <transition_data id="37" name="Move from bottom with fade" description="Move from bottom with fade" thumbnail_image="38.png" enabled="true"/>
+    <transition_data id="38" name="Stretch from left" description="Stretch from left" thumbnail_image="39.png" enabled="true"/>
+    <transition_data id="39" name="Stretch from left with fade" description="Stretch from left with fade" thumbnail_image="40.png" enabled="true"/>
+	
+    <transition_data id="40" name="Stretch from vertical center" description="Stretch from vertical center" thumbnail_image="41.png" enabled="true"/>
+    <transition_data id="41" name="Stretch from vertical center with fade" description="Stretch from vertical center with fade" thumbnail_image="42.png" enabled="true"/>
+    <transition_data id="42" name="Stretch from right" description="Stretch from right" thumbnail_image="43.png" enabled="true"/>
+    <transition_data id="43" name="Stretch from right with fade" description="Stretch from right with fade" thumbnail_image="44.png" enabled="true"/>
+    <transition_data id="44" name="Stretch from top" description="Stretch from top" thumbnail_image="45.png" enabled="true"/>
+	
+    <transition_data id="45" name="Stretch from top with fade" description="Stretch from top with fade" thumbnail_image="46.png" enabled="true"/>
+    <transition_data id="46" name="Stretch from horizontal center" description="Stretch from horizontal center" thumbnail_image="47.png" enabled="true"/>
+    <transition_data id="47" name="Stretch from horizontal center with fade" description="Stretch from horizontal center with fade" thumbnail_image="48.png" enabled="true"/>
+    <transition_data id="48" name="Stretch from bottom" description="Stretch from bottom" thumbnail_image="49.png" enabled="true"/>
+    <transition_data id="49" name="Stretch from bottom with fade" description="Stretch from bottom with fade" thumbnail_image="50.png" enabled="true"/>
+	
+    <transition_data id="50" name="Stretch from center" description="Stretch from center" thumbnail_image="51.png" enabled="true"/>
+    <transition_data id="51" name="Stretch from center with fade" description="Stretch from center with fade" thumbnail_image="52.png" enabled="true"/>
+	
+	<transition_data id="52" name="No transition" description="No transition" thumbnail_image="53.png" enabled="false"/>
+	<transition_data id="53" name="Fade to white" description="Fade to white" thumbnail_image="54.png" enabled="false"/>
+	<transition_data id="54" name="Fade to black" description="Fade to black" thumbnail_image="55.png" enabled="false"/>
+	<transition_data id="55" name="Blocks rotation" description="Blocks rotation" thumbnail_image="56.png" enabled="false"/>
+	<transition_data id="56" name="Blocks expansion" description="Blocks expansion" thumbnail_image="57.png" enabled="false"/>
+	<transition_data id="57" name="Stars rotation" description="Stars rotation" thumbnail_image="58.png" enabled="false"/>
+	<transition_data id="58" name="Fade to red" description="Fade to red" thumbnail_image="59.png" enabled="false"/>
+	<transition_data id="59" name="Fade to green" description="Fade to green" thumbnail_image="60.png" enabled="false"/>
+	<transition_data id="60" name="Fade to blue" description="Fade to blue" thumbnail_image="61.png" enabled="false"/>
+	<transition_data id="61" name="Fade to aqua" description="Fade to aqua" thumbnail_image="62.png" enabled="false"/>
+	<transition_data id="62" name="Fade to fuchsia" description="Fade to fuchsia" thumbnail_image="63.png" enabled="false"/>
+	<transition_data id="63" name="Fade to yellow" description="Fade to yellow" thumbnail_image="64.png" enabled="false"/>
+	<transition_data id="64" name="Expansion" description="Explosion" thumbnail_image="65.png" enabled="false"/>
+	<transition_data id="65" name="Cross expansion" description="Cross expansion" thumbnail_image="66.png" enabled="false"/>
+	<transition_data id="66" name="X expansion" description="X expansion" thumbnail_image="67.png" enabled="false"/>
+	<transition_data id="67" name="5 blocks expansion" description="5 blocks expansion" thumbnail_image="68.png" enabled="false"/>
+	
+</Flash_Slide_Show_Transition>
+
+

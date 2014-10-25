@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_template_parameters_profile display_name="800X600" xml_name="test" item_category="0" item_style="3" web_album="4" preview="800X600.jpg" folder="default" swf_file="anvsoftJavaScriptSlideshow-1.0.0.min.js" xml_config_file="slides.xml" swf_path_base="template\preset\html5[christmas1]\source\" group_all_count="2" is_html5_theme="1" donot_create_big_image="0" donot_create_small_image="0">
+    <fixed_parameters fixed_file_count="0" htt_file="index.htt" html_file="index.html" output_res_folder="res" aux_htt_file="fs_aux.htt" htt_path_base="template\common\html5\" aux_html_file="fs_aux.html">
+    </fixed_parameters>
+    <group id="0" display_name="Global" xml_name="global" item_category="0" item_style="3" category_count="6">
+        <category id="0" display_name="Basic properties" xml_name="basic_property" item_category="0" item_style="3" item_count="12">
+            <item id="0" display_name="Movie Size" xml_name="movieSize" item_category="1002" item_style="7" value="" desc="" subitem_count="2">
+                <item id="0" display_name="Width" xml_name="movieWidth" item_category="9000" item_style="7" value="1025" value_def="700" desc="" min_value="80" max_value="1280"/>
+                <item id="1" display_name="Height" xml_name="movieHeight" item_category="9001" item_style="7" value="900" value_def="492" desc="" min_value="300" max_value="1024"/>
+            </item>
+            <item id="1" display_name="Background Color" xml_name="backgroundColor" item_category="40" item_style="7" value="0x00000000" value_def="0xffffffff" desc="" min_value="0" max_value="1000"/>
+            <item id="2" display_name="Decoration" xml_name="decoration" item_category="50" item_style="0" value="" value_def="rain.swf" desc="Decoration Select" type_filter="All Supported Formats(*.jpg;*.jpeg;*.gif;*.png;*.swf)|*.jpg;*.jpeg;*.gif;*.png;*.swf|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|PNG (*.png)|*.png|Flash (*.swf)|*.swf||" path_base="template\component\decoration\"/>
+            <item id="3" display_name="Html Title" xml_name="html_title" item_category="9010" item_style="7" value="AnvSoft HTML5 Slideshow Maker" value_def="AnvSoft HTML5 Slideshow Maker" desc=""/>
+            <item id="4" display_name="Load Style" xml_name="loadStyle" item_category="50" item_style="7" value="preloader-dot2.png" value_def="preloader-dot1.png" desc="Preloader Select" type_filter="All Supported Formats(*.jpg;*.jpeg;*.gif;*.png)|*.jpg;*.jpeg;*.gif;*.png|JPEG (*.jpg;*.jpeg)|*.jpg;*.jpeg|GIF (*.gif)|*.gif|PNG (*.png)|*.png||" path_base="template\component\preloader\html5\"/>
+            <item id="5" display_name="Start Auto Play" xml_name="startAutoPlay" item_category="1" item_style="3" value="true" value_def="false" desc=""/>
+            <item id="6" display_name="Continue Playing After Clicking" xml_name="clickToAutoPlay" item_category="1" item_style="3" value="true" value_def="true" desc="Click The Button Or Thumbnail"/>
+            <item id="7" display_name="Random Playing Photos" xml_name="randomPlayingPhotos" item_category="1" item_style="3" value="false" value_def="false" desc="Random Playing Photos"/>
+            <item id="8" display_name="Loop" xml_name="continuum" item_category="1" item_style="3" value="true" value_def="true" desc=""/>
+            <item id="9" display_name="Enable Link" xml_name="enableURL" item_category="1" item_style="3" value="true" value_def="true" desc=""/>
+            <item id="10" display_name="Frame Rate" xml_name="frameRate" item_category="12" item_style="7" value="30" value_def="30" desc="Frame Rate: value ranges from 1 to 120" min_value="1" max_value="120"/>
+            <item id="11" display_name="Transition Array" xml_name="transitionArray" item_category="9008" item_style="0" value="" desc=""/>
+        </category>
+        <category id="1" display_name="Title properties" xml_name="title_property" item_category="0" item_style="3" item_count="19">
+            <item id="0" display_name="Show Title" xml_name="showTitle" item_category="1" item_style="3" value="true" value_def="true" desc=""/>
+            <item id="1" display_name="Photo Title Color" xml_name="photoTitleColor" item_category="40" item_style="7" value="0x00ffffff" value_def="0x00000000" desc="" min_value="0" max_value="1000"/>
+            <item id="2" display_name="Background Color" xml_name="backgroundColor" item_category="40" item_style="7" value="0x00000000" value_def="0x00ffffff" desc="" min_value="0" max_value="1000"/>
+            <item id="3" display_name="Background Alpha" xml_name="alpha" item_category="12" item_style="7" value="60" value_def="50" desc="Background Alpha" min_value="0" max_value="100"/>
+            <item id="4" display_name="Auto Hide" xml_name="autoHide" item_category="1" item_style="3" value="false" value_def="false" desc=""/>
+            <item id="5" display_name="Photo Title Font" xml_name="titleTextFont" item_category="10" item_style="7" value="Lucida Sans Unicode" value_def="Lucida Sans Unicode" desc=""/>
+            <item id="6" display_name="Photo Title Size" xml_name="titleTextSize" item_category="12" item_style="7" value="18" value_def="18" desc="" min_value="0" max_value="100"/>
+            <item id="7" display_name="Photo Title Height" xml_name="titleTextHeight" item_category="12" item_style="0" value="30" value_def="20" desc="" min_value="0" max_value="100"/>
+            <item id="8" display_name="Photo Title Shadow Color" xml_name="titleTextShadowColor" item_category="40" item_style="7" value="0x00000000" value_def="0x00000000" desc="" min_value="0" max_value="1000"/>
+            <item id="9" display_name="Photo Title Shadow Offset" xml_name="titleTextShadowOffset" item_category="12" item_style="7" value="2" value_def="2" desc="" min_value="0" max_value="100"/>
+            <item id="10" display_name="Photo Title Shadow Blur" xml_name="titleTextShadowBlur" item_category="12" item_style="7" value="2" value_def="2" desc="" min_value="0" max_value="100"/>
+            <item id="11" display_name="Photo Title Text Align" xml_name="titleTextAlign" item_category="30" item_style="3" value="center" value_def="center" value_list_count="5" desc="">
+                <value_list id="0" value="left"/>
+                <value_list id="1" value="right"/>
+                <value_list id="2" value="center"/>
+                <value_list id="3" value="justify"/>
+                <value_list id="4" value="inherit"/>
+            </item>
+            <item id="12" display_name="Photo Text Rotation Angle" xml_name="textTransform" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+            <item id="13" display_name="Photo Text X Axis Move" xml_name="textTransformOriginX" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+            <item id="14" display_name="Photo Text Y Axis Move" xml_name="textTransformOriginY" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+            <item id="15" display_name="Photo Title Rotation Angle" xml_name="titleTransform" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+            <item id="16" display_name="Photo Title X Axis Move" xml_name="titleTransformOriginX" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+            <item id="17" display_name="Photo Title Y Axis Move" xml_name="titleTransformOriginY" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+            <item id="18" display_name="Photo Text Resize" xml_name="textResize" item_category="30" item_style="3" value="none" value_def="none" value_list_count="5" desc="">
+                <value_list id="0" value="none"/>
+                <value_list id="1" value="both"/>
+                <value_list id="2" value="horizontal"/>
+                <value_list id="3" value="vertical"/>
+                <value_list id="4" value=""/>
+            </item>
+        </category>
+        <category id="2" display_name="Background music properties" xml_name="music_property" item_category="0" item_style="3" item_count="4">
+            <item id="0" display_name="Path" xml_name="path" item_category="9008" item_style="0" value="" desc=""/>
+            <item id="1" display_name="Stream" xml_name="stream" item_category="1" item_style="3" value="true" value_def="true" desc=""/>
+            <item id="2" display_name="Loop" xml_name="loop" item_category="1" item_style="3" value="true" value_def="false" desc=""/>
+            <item id="3" display_name="Start Auto Play" xml_name="autoPlay" item_category="1" item_style="3" value="true" value_def="true" desc=""/>
+        </category>
+        <category id="3" display_name="photo properties" xml_name="photo_property" item_category="0" item_style="3" item_count="4">
+            <item id="0" display_name="Photo Top Padding" xml_name="topPadding" item_category="9014" item_style="7" value="60" value_def="0" desc="Photo Top Padding" min_value="0" max_value="1024"/>
+            <item id="1" display_name="Photo Bottom Padding" xml_name="bottomPadding" item_category="9016" item_style="7" value="240" value_def="72" desc="Photo Bottom Padding" min_value="0" max_value="1024"/>
+            <item id="2" display_name="Photo Left Padding" xml_name="leftPadding" item_category="9015" item_style="7" value="75" value_def="0" desc="Photo Left Padding" min_value="0" max_value="1024"/>
+            <item id="3" display_name="Photo Right Padding" xml_name="rightPadding" item_category="9017" item_style="7" value="150" value_def="0" desc="Photo Right Padding" min_value="0" max_value="1024"/>
+        </category>
+        <category id="4" display_name="Description properties" xml_name="description_property" item_category="0" item_style="3" item_count="15">
+            <item id="0" display_name="Enable" xml_name="enable" item_category="1" item_style="3" value="true" value_def="true" desc=""/>
+            <item id="1" display_name="Background Color" xml_name="backgroundColor" item_category="40" item_style="0" value="0x00000000" value_def="0x000000ff" desc="" min_value="0" max_value="1000"/>
+            <item id="2" display_name="Background Alpha" xml_name="backgroundAlpha" item_category="12" item_style="0" value="30" value_def="30" desc="Background Alpha" min_value="0" max_value="100"/>
+            <item id="3" display_name="Text Font" xml_name="defaultTextFont" item_category="10" item_style="7" value="Lucida Sans Unicode" value_def="Lucida Sans Unicode" desc=""/>
+            <item id="4" display_name="Text Color" xml_name="defaultTextColor" item_category="40" item_style="7" value="0x00f0fbff" value_def="0x00000000" desc="" min_value="0" max_value="1000"/>
+            <item id="5" display_name="Text Size" xml_name="defaultTextSize" item_category="12" item_style="7" value="13" value_def="13" desc="" min_value="0" max_value="100"/>
+            <item id="6" display_name="Line Height" xml_name="lineHeight" item_category="12" item_style="7" value="20" value_def="20" desc="" min_value="0" max_value="100"/>
+            <item id="7" display_name="Align" xml_name="align" item_category="30" item_style="0" value="bottom" value_def="bottom" value_list_count="2" desc="">
+                <value_list id="0" value="top"/>
+                <value_list id="1" value="bottom"/>
+            </item>
+            <item id="8" display_name="Text Shadow Color" xml_name="desTextShadowColor" item_category="40" item_style="7" value="0x00000000" value_def="0x00000000" desc="" min_value="0" max_value="1000"/>
+            <item id="9" display_name="Text Shadow Offset" xml_name="desTextShadowOffset" item_category="12" item_style="7" value="2" value_def="2" desc="" min_value="0" max_value="100"/>
+            <item id="10" display_name="Text Shadow Blur" xml_name="desTextShadowBlur" item_category="12" item_style="7" value="2" value_def="2" desc="" min_value="0" max_value="100"/>
+            <item id="11" display_name="Text Align" xml_name="desTextAlign" item_category="30" item_style="3" value="left" value_def="center" value_list_count="5" desc="">
+                <value_list id="0" value="left"/>
+                <value_list id="1" value="right"/>
+                <value_list id="2" value="center"/>
+                <value_list id="3" value="justify"/>
+                <value_list id="4" value="inherit"/>
+            </item>
+            <item id="12" display_name="Description Rotation Angle" xml_name="desTransform" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+            <item id="13" display_name="Description X Axis Move" xml_name="desTransformOriginX" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+            <item id="14" display_name="Description Y Axis Move" xml_name="desTransformOriginY" item_category="12" item_style="7" value="0" value_def="0" desc="" min_value="0" max_value="1000"/>
+        </category>
+        <category id="5" display_name="Video properties" xml_name="video_property" item_category="0" item_style="3" item_count="3">
+            <item id="0" display_name="Buffer Time" xml_name="bufferTime" item_category="12" item_style="7" value="5" value_def="5" desc="" min_value="0" max_value="100"/>
+            <item id="1" display_name="Start Auto Play" xml_name="autoPlay" item_category="1" item_style="3" value="true" value_def="true" desc=""/>
+            <item id="2" display_name="Controls" xml_name="controls" item_category="1" item_style="3" value="true" value_def="true" desc=""/>
+        </category>
+    </group>
+    <group id="1" display_name="Thumbnail" xml_name="thumbnail" item_category="0" item_style="3" category_count="1">
+        <category id="0" display_name="Basic properties" xml_name="basic_property" item_category="0" item_style="3" item_count="7">
+            <item id="0" display_name="Thumbnail Size" xml_name="thumbnailSize" item_category="1002" item_style="7" value="" desc="" subitem_count="2">
+                <item id="0" display_name="Width" xml_name="thumWidth" item_category="9006" item_style="7" value="75" value_def="70" desc="" min_value="0" max_value="1280"/>
+                <item id="1" display_name="Height" xml_name="thumHeight" item_category="9007" item_style="7" value="50" value_def="50" desc="" min_value="0" max_value="1024"/>
+            </item>
+            <item id="1" display_name="Border Color" xml_name="borderColor" item_category="40" item_style="7" value="0x00ffffff" value_def="0x00ffffff" desc="" min_value="0" max_value="1000"/>
+            <item id="2" display_name="Current Border Color" xml_name="currentBorderColor" item_category="40" item_style="7" value="0x000000ff" value_def="0x00ff0000" desc="" min_value="0" max_value="1000"/>
+            <item id="3" display_name="Border Size" xml_name="thumborder" item_category="12" item_style="7" value="3" value_def="5" desc="" min_value="0" max_value="100"/>
+            <item id="4" display_name="Thumbnail Spacing" xml_name="thumSpacing" item_category="12" item_style="7" value="5" value_def="5" desc="" min_value="0" max_value="100"/>
+            <item id="5" display_name="Thumbnail Box Spacing" xml_name="thumBox" item_category="12" item_style="7" value="10" value_def="0" desc="" min_value="0" max_value="100"/>
+            <item id="6" display_name="Thumbnail Box Color" xml_name="thumBoxColor" item_category="40" item_style="7" value="0x00000000" value_def="0x00000000" desc="" min_value="0" max_value="1000"/>
+        </category>
+    </group>
+</flash_template_parameters_profile>

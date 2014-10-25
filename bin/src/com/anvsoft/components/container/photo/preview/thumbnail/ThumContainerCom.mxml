@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<thumbnail:ThumContainerAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+							xmlns:s="library://ns.adobe.com/flex/spark" 
+							xmlns:mx="library://ns.adobe.com/flex/mx"
+							xmlns:preview="com.anvsoft.components.container.photo.preview.*" 
+							xmlns:thumbnail="com.anvsoft.components.container.photo.preview.thumbnail.*">
+	
+	<s:HGroup gap="10" verticalAlign="middle">
+		<s:BorderContainer backgroundColor="0x333333"
+						   width="46" height="43">
+			<s:BorderContainer width="46" height="43" borderWeight="0"
+							   top="3" bottom="16" left="6" right="6">
+				<s:Image id="transitionImg"
+						 source="assets/transition/effects/small1.png"
+						 width="100%" height="100%"
+						 scaleMode="stretch"/>
+			</s:BorderContainer>
+			<s:Label id="transDurationLabel" width="100%" text="{transitionDuration}''" textAlign="center" bottom="0"/>
+		</s:BorderContainer>
+		<s:VGroup gap="5">
+			<s:BorderContainer id="outSildeContainer"
+							   width="126" height="102"
+							   backgroundColor="0x333333">
+				<s:BorderContainer width="126" height="102"
+								   top="6" bottom="20" left="6" right="6">
+					<s:Image id="thumImg" width="100%" height="100%"/>
+				</s:BorderContainer>
+				<s:Label id="photoShowDuraLabel" width="100%" text="{photoShowDuration}''" textAlign="right" bottom="2" right="6"/>
+			</s:BorderContainer>
+			<s:Label id="thumTitle" width="126" height="12" textAlign="center"/>
+		</s:VGroup>
+	</s:HGroup>
+</thumbnail:ThumContainerAS>

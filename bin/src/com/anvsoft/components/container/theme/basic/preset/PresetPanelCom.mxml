@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preset:PresetPanelAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					xmlns:s="library://ns.adobe.com/flex/spark" 
+					xmlns:mx="library://ns.adobe.com/flex/mx"
+					xmlns:preset="com.anvsoft.components.container.theme.basic.preset.*">
+	
+	<s:Label id="categoryLabel" text="Category" fontWeight="bold" paddingTop="5" paddingLeft="5"/>
+	<s:BorderContainer width="100%" height="100%">
+		<s:Scroller width="100%" height="100%">
+			<s:VGroup id="basePresetPanel" paddingTop="10" paddingBottom="5" paddingLeft="5" paddingRight="5"/>
+		</s:Scroller>
+	</s:BorderContainer>
+</preset:PresetPanelAS>

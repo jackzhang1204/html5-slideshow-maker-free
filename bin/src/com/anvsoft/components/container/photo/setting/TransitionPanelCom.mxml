@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<setting:TransitionPanelAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		  xmlns:s="library://ns.adobe.com/flex/spark" 
+		  xmlns:mx="library://ns.adobe.com/flex/mx"
+		  xmlns:setting="com.anvsoft.components.container.photo.setting.*">
+	
+	<s:HGroup width="100%" height="100%">
+		<mx:HDividedBox width="100%" height="100%">
+			<s:VGroup width="100%" height="100%">
+				<s:Label id="transEffectsLabel" text="Transition Effects:"/>
+				<s:BorderContainer width="100%" height="100%">
+					<s:Scroller width="100%" height="100%">
+						<s:TileGroup id="effectsTileGroup"
+									 horizontalGap="10" verticalGap="10"
+									 paddingTop="5" paddingBottom="5" paddingLeft="5" paddingRight="5"/>
+					</s:Scroller>
+				</s:BorderContainer>
+				<s:Scroller width="100%">
+					<s:HGroup width="100%">
+						<s:VGroup>
+							<s:HGroup verticalAlign="middle">
+								<s:Label id="transDurationLabel" text="Transition Duration(seconds):" width="180"/>
+								<s:TextInput id="transDuration" width="40" text="2"/>
+								<s:Button id="applyToSelected" label="Apply to selected" width="140"/>
+							</s:HGroup>
+							<s:HGroup verticalAlign="middle">
+								<s:Label id="photoShowDurLabel" text="Photo Show Duration(seconds):" width="180"/>
+								<s:TextInput id="photoShowDuration" width="40" text="2"/>
+								<s:Button id="applyToAll" label="Apply to all" width="140"/>
+							</s:HGroup>
+						</s:VGroup>
+						<s:Button id="defineRandomSet" label="Define Random Set" width="140"/>
+					</s:HGroup>
+				</s:Scroller>
+			</s:VGroup>
+			<s:VGroup width="290" height="100%">
+				<s:Label id="previewLabel" text="Preview:"/>
+				<s:BorderContainer width="100%" height="100%">
+					<s:SWFLoader id="transitionLoader" source="assets/transition/demo/transition.swf" 
+								 scaleContent="true"
+								 horizontalAlign="center"
+								 verticalAlign="middle"
+								 width="100%" height="100%"/>
+				</s:BorderContainer>	
+			</s:VGroup>
+		</mx:HDividedBox>
+	</s:HGroup>
+</setting:TransitionPanelAS>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<fxpProperties abbreviated="false" authoringTool="Flex Builder" compiles="true" parentProject="576c21a2-a473-4e55-9968-d03c25e25669" projectUUID="576c21a2-a473-4e55-9968-d03c25e25669" pureCatalystProject="false" sdkVersion="4.6.0" uuid="782414a1-71f8-44a5-9221-f4795e914f02" version="15">
+  <projects/>
+  <src>
+    <linked isMain="false" location="E:/Collection/AS/FLEX/openSource/nochump-zip/bak/1.0.5/src" path="/linked-src/src" position="0" uuid="35de348a-24c9-4647-a4b8-ead30c2b1c37"/>
+  </src>
+  <swc>
+    <linked location="sdkPlaceHolder" path="sdkPlaceHolder" position="0" uuid="782414a1-71f8-44a5-9221-f4795e914f02"/>
+    <linked location="E:/My Work File/HTML5 Slideshow Maker/bin/HTML5SlideshowMaker(Professional)/libs" path="/libs" position="1" uuid="35de348a-24c9-4647-a4b8-ead30c2b1c37"/>
+  </swc>
+  <misc/>
+  <theme/>
+  <mxmlFormattingPrefs groupAttributesByState="true" maxLineWidth="100" mxmlAlignAttributes="true" mxmlAttributeOrder="id,userLabel,includeIn,excludeFrom,visible,x,y,z,left,right,top,bottom,width,height,minWidth,minHeight,maxWidth,maxHeight,label" mxmlKeepAttributeValuesOrganized="true"/>
+</fxpProperties>

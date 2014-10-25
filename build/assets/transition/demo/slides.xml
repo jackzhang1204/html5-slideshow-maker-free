@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters copyright="anvsoftPFMTheme">
+    <preferences>
+        <global>
+            <basic_property movieWidth="480" movieHeight="360" html_title="Title" showPreloader="false" preloaderColor="0xffffff" preloaderBgColor="0x000000" loaderTextColor="0xffffff" backgroundColor="0x000000" hideAdobeMenu="true" enableURL="false" startAutoPlay="true" continuum="true" anvsoftMenu="false" photoScaleTween="true" defaultVolume="60" enableMediaControlPanel="false" transitionArray="" photoScaleStyle="scaleToFit" randomPlayingPhotos="false" enableKeyboardShortcuts="true" frameRate="30"/>
+            <title_property showTitle="false" backgroundColor="0x000000" alpha="70" titleTextFont="Lucida Sans Unicode" photoTitleColor="0xffffff" titleTextSize="10"/>
+            <music_property path="" stream="true" loop="true" autoPlay="true" enableMusicInfo="false"/>
+            <photo_property topPadding="0" bottomPadding="0" leftPadding="0" rightPadding="0"/>
+            <description_property enable="false" backgroundColor="0x000000" backgroundAlpha="30" autoShow="false" defaultTextFont="Lucida Sans Unicode" defaultTextColor="0xffffff" defaultTextSize="10" desButtonColor="0xffff00" align="bottom" cssText="a:link{text-decoration: underline;} a:hover{color:#ff0000; text-decoration: none;} a:active{color:#0000ff;text-decoration: none;} .blue {color:#0000ff; font-size:15px; font-style:italic; text-decoration: underline;} .body{color:#ff5500;font-size:20px;}"/>
+            <video_property panelBgColor="0x000000" buttonColor="0xffffff" dragbarColor="0xffffff" bufferColor="0x000000" slideColor="0xcccccc" slidebgColor="0x000000" timeColor="0xffffff" bufferTime="5" autoPlay="true"/>
+        </global>
+        <button>
+            <basic_property showButton="false" buttonColor="0xffffff" buttonSpacing="15" enableButtonFilters="true" enableToolTip="false" toolTipTextFont="Lucida Sans Unicode" toolTipTextColor="0xffffff" toolTipTextSize="9" toolTipBgColor="0x000000" toolTipLabels="Previous Group,Previous,Next,Next Group,Play,Pause,Full Screen,Normal Screen"/>
+        </button>
+    </preferences>
+    <album>
+        <slide jpegURL="thumbs/t_0001.jpg" d_URL="slides/p_0001.jpg" transition="0" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="" title="" width="480" height="360"/>
+        <slide jpegURL="thumbs/t_0002.jpg" d_URL="slides/p_0002.jpg" transition="0" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="" title="" width="480" height="360"/>
+    </album>
+</flash_parameters>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		  xmlns:s="library://ns.adobe.com/flex/spark" 
+		  xmlns:mx="library://ns.adobe.com/flex/mx"
+		  xmlns:preview="com.anvsoft.components.container.photo.preview.*"
+		  xmlns:setting="com.anvsoft.components.container.photo.setting.*">
+	
+	<fx:Script>
+		<![CDATA[
+			import com.anvsoft.utils.language.LanguageManager;
+		]]>
+	</fx:Script>
+	<!--1.Photo Properties Setting Panel-->
+	<mx:VDividedBox width="100%" height="100%">
+		<s:VGroup width="100%" height="60%">
+			<mx:LinkBar dataProvider="{settingPanel}"/>
+			<s:BorderContainer width="100%"
+							   height="100%"
+							   backgroundColor="0x333333">
+				<mx:ViewStack id="settingPanel"
+							  creationPolicy="all"
+							  width="100%" height="100%"
+							  top="5" bottom="5" left="5" right="5">
+					<s:NavigatorContent label="{LanguageManager.getInstance().getString('20002')}" width="100%" height="100%" icon="@Embed('assets/img/fileExplorer.png')">
+						<setting:FileExplorerCom width="100%" height="100%"/>
+					</s:NavigatorContent>
+					<s:NavigatorContent label="{LanguageManager.getInstance().getString('20004')}" width="100%" height="100%" icon="@Embed('assets/img/transitionEffect.png')">
+						<setting:TransitionPanelCom width="100%" height="100%"/>
+					</s:NavigatorContent>
+					<s:NavigatorContent label="{LanguageManager.getInstance().getString('21001')}" width="100%" height="100%" icon="@Embed('assets/img/properties.png')">
+						<setting:PropertiesPanelCom width="100%" height="100%"/>
+					</s:NavigatorContent>
+				</mx:ViewStack>
+			</s:BorderContainer>
+		</s:VGroup>
+		<!--2.Added Photo Preview Panel-->
+		<preview:PreviewPanelCom
+			id="previewPanelCom"
+			width="100%"
+			height="40%"
+		    minHeight="160"/>
+	</mx:VDividedBox>
+</s:Group>

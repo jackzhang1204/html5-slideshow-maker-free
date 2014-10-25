@@ -1,0 +1,1 @@
+"C:\Program Files\Adobe\Adobe Flash Builder 4.6\sdks\4.6.0\bin\adt.bat" -package -XnoAneValidate -storetype pkcs12 -keystore "E:\Collection\AS\FLEX\air\certificate\sample_win.p12" -storepass 1234 -target bundle HTML5SlideshowMakerFree HTML5SlideshowMakerFree-app.xml HTML5SlideshowMakerFree.swf assets

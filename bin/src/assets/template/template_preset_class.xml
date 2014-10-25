@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<falsh_template_class preset_folder="preset" display_name="preset" class_count="16">
+	<template_class id="0" category="1" folder="html5[dots]" display_name="Dots" />
+	<template_class id="1" category="1" folder="html5[thumbnailWithNumber]" display_name="Thumbnail With Number" />
+	<template_class id="2" category="1" folder="html5[playList]" display_name="Play List" />
+	<template_class id="3" category="1" folder="html5[professional]" display_name="Professional" />
+	<template_class id="4" category="1" folder="html5[simple]" display_name="Simple" />
+	<template_class id="5" category="1" folder="html5[rightList]" display_name="Right List" />
+	<template_class id="6" category="1" folder="html5[digit]" display_name="Digit" />
+	<template_class id="7" category="1" folder="html5[bottomThumbnail]" display_name="Bottom Thumbnail" />
+	<template_class id="8" category="1" folder="html5[cool]" display_name="Cool" />
+	<template_class id="9" category="1" folder="html5[quiet]" display_name="Quiet" />
+	<template_class id="10" category="1" folder="html5[lumen]" display_name="Lumen" />
+	<template_class id="11" category="1" folder="html5[compact]" display_name="Compact" />
+	<template_class id="12" category="1" folder="html5[christmas1]" display_name="Christmas1" />
+	<template_class id="13" category="1" folder="html5[christmas2]" display_name="Christmas2" />
+	<template_class id="14" category="1" folder="html5[christmas3]" display_name="Christmas3" />
+	<template_class id="15" category="1" folder="html5[christmas4]" display_name="Christmas4" />
+	
+</falsh_template_class>

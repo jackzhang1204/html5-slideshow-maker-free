@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:TitleWindow xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx"
+			   creationComplete="creationCompleteHandler(event)">
+	
+	<fx:Script>
+		<![CDATA[
+			import flash.events.MouseEvent;
+			import mx.events.CloseEvent;
+			import mx.events.FlexEvent;
+			import mx.managers.PopUpManager;
+			import com.anvsoft.utils.language.LanguageManager;
+			
+			public var tipTitle:String;
+			public var tipInfo:String;
+			private function creationCompleteHandler(event:FlexEvent):void
+			{
+				removeEventListener(FlexEvent.CREATION_COMPLETE, creationCompleteHandler);
+				/////////////////////////////
+				this.title = tipTitle;
+				textInfo.text = tipInfo;
+				this.x = (this.parent.width - this.width) / 2;
+				this.y = (this.parent.height - this.height) / 2;
+				////////////////
+				addEventListener(CloseEvent.CLOSE, closePopUpHandler);
+				okButton.addEventListener(MouseEvent.CLICK, closePopUpHandler);
+				initLanguage();
+			}
+			private function initLanguage():void
+			{
+				LanguageManager.getInstance().binding(okButton, "label", "10001");
+			}
+			private function closePopUpHandler(event:Event):void
+			{
+				PopUpManager.removePopUp(this);
+				removeAllEventListener();
+			}
+			private function removeAllEventListener():void
+			{
+				removeEventListener(CloseEvent.CLOSE, closePopUpHandler);
+				okButton.removeEventListener(MouseEvent.CLICK, closePopUpHandler);
+			}
+		]]>
+	</fx:Script>
+	<s:VGroup horizontalAlign="center"
+			  top="20" bottom="10" left="10" right="10"
+			  gap="20">
+		<s:Label id="textInfo"/>
+		<s:Button id="okButton" width="80" label="OK"/>
+	</s:VGroup>
+</s:TitleWindow>
