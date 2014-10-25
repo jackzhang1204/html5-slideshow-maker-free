@@ -1,4 +1,4 @@
-# [HTML5 Slideshow Maker Free](http://www.html5-slideshow-maker.com/) #
+# [HTML5 Slideshow Maker Free](http://jackzhang1204.github.io/) #
 
 ![Screenshot](html5-slideshow-maker-free.jpg)
 
