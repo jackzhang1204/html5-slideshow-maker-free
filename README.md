@@ -7,7 +7,6 @@ HTML5 Slideshow Maker Free是一个将图片简单快捷转成HTML5相册的小�
 
 
 
-
 ## Author: ##
 * Jack's GitHub 	[https://github.com/jackzhang1204](https://github.com/jackzhang1204)
 * Jack's Twitter 	[https://twitter.com/jackzhang1204](https://twitter.com/jackzhang1204)
