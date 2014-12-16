@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<header:HSMHeaderAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:header="com.iyoya.components.header.*">
+	
+	<fx:Style>
+		@namespace s "library://ns.adobe.com/flex/spark";
+		@namespace mx "library://ns.adobe.com/flex/mx";
+		@namespace header "com.iyoya.components.header.*";
+		
+		.upgradeButtonStyle{
+			skinClass:                  ClassReference("spark.skins.spark.ButtonSkin");
+			color:						#FFFFFF;
+			fontWeight:					bold;
+			chromeColor:				#0033CC;
+			cornerRadius:				2;
+		}
+	</fx:Style>	
+	<fx:Declarations>
+		<fx:XMLList id="menuXML">
+			<fx:menuitem label="Preference">
+				<fx:menuitem label="Create Go2Album Account..." data="createGo2AlbumAccount"/>
+				<fx:menuitem label="Sign in Go2Album" data="signInGo2Album"/>
+				<fx:menuitem label="Language">
+					<fx:menuitem label="Español" data="es_ES"/>
+					<fx:menuitem label="Italiano" data="it_IT"/>
+					<fx:menuitem label="English" data="en_US"/>
+					<fx:menuitem label="Deutsch" data="de_DE"/>
+					<fx:menuitem label="Français" data="fr_FR"/>
+					<fx:menuitem label="日本語" data="ja_JP"/>
+					<fx:menuitem label="简体中文" data="zh_CN"/>
+					<fx:menuitem label="繁体中文" data="zh_TW"/>
+				</fx:menuitem>
+				<fx:menuitem label="Options..." data="options"/>
+			</fx:menuitem>
+			<fx:menuitem label="Help">
+				<fx:menuitem label="Help" data="help"/>
+				<fx:menuitem label="Website" data="website"/>
+				<fx:menuitem label="Visit Go2Album" data="visitGo2Album"/>
+				<fx:menuitem label="Upgrade" data="upgrade"/>
+				<fx:menuitem label="About" data="about"/>
+			</fx:menuitem>
+		</fx:XMLList>
+	</fx:Declarations>
+	<!--1.background-->
+	<s:Group id="headBackground" doubleClickEnabled="true" width="100%" height="100%">
+		<s:Rect width="100%" height="100%">
+			<s:fill>
+				<s:LinearGradient rotation="90">
+					<s:GradientEntry color="0x555555" ratio="0"/>
+					<s:GradientEntry color="0x444444" ratio="0.03"/>
+					<s:GradientEntry color="0x222222" ratio="1"/>
+				</s:LinearGradient>
+			</s:fill>
+		</s:Rect>
+	</s:Group>
+	<!--2.windows control buttons-->
+	<s:Group top="2" left="4">
+		<s:Group>
+			<s:Image id="appWinConBtnDisableBg" visible="false" source="@Embed('assets/img/winControlBtn0.png')"/>
+			<s:Image id="appWinConBtnRollOutBg" source="@Embed('assets/img/winControlBtn1.png')"/>
+			<s:Image id="appWinConBtnRollOverBg" visible="false" source="@Embed('assets/img/winControlBtn2.png')"/>
+		</s:Group>
+		<s:HGroup id="appWinControlButton" gap="0">
+			<s:Button id="closeAppButton" skinClass="com.iyoya.skins.nativeWindowButton.CloseAppButtonSkin"/>
+			<s:Button id="minimizeAppButton" skinClass="com.iyoya.skins.nativeWindowButton.MinimizeAppButtonSkin"/>
+			<s:Group>
+				<s:Button id="maximizeAppButton" skinClass="com.iyoya.skins.nativeWindowButton.MaximizeAppButtonSkin"/>
+				<s:Button id="restoreAppButton" visible="false" skinClass="com.iyoya.skins.nativeWindowButton.RestoreButtonSkin"/>
+			</s:Group>
+		</s:HGroup>
+	</s:Group>
+	<!--3.meunu-->
+	<s:HGroup width="100%" height="100%" paddingBottom="6" horizontalAlign="right" verticalAlign="bottom">
+		<mx:MenuBar id="menuBar" labelField="@label" dataProvider="{menuXML}"
+					backgroundSkin="com.iyoya.skins.menuBar.MenuBarNoBorderFillSkin"
+					itemUpSkin="com.iyoya.skins.menuBar.MenuBarNoBorderFillSkin"
+					itemDownSkin="com.iyoya.skins.menuBar.MenuBarActiveSkin"
+					itemOverSkin="com.iyoya.skins.menuBar.MenuBarActiveSkin"/>
+	</s:HGroup>
+	<!--4.title-->
+	<s:HGroup width="100%" paddingTop="5" mouseEnabled="false" mouseChildren="false" horizontalAlign="center">
+		<s:Label text="{title} Version"
+				 fontSize="13"
+				 fontWeight="bold"/>
+	</s:HGroup>
+	<!--5.upgrade button-->
+	<s:HGroup id="upgradeButtonHG" width="100%" height="100%" horizontalAlign="right" verticalAlign="bottom" paddingBottom="-55" paddingRight="10">
+		<s:Button id="upgradeButton" label="Upgrade" width="100" height="30" styleName="upgradeButtonStyle"/>
+	</s:HGroup>
+</header:HSMHeaderAS>

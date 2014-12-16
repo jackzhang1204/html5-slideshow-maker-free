@@ -23,7 +23,7 @@
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
   <buildTargets>
     <buildTarget buildTargetName="default">
-      <airSettings airCertificatePath="E:/My Work File/certificates/win/sample_win.p12" airTimestamp="true" anePathSet="true" version="1">
+      <airSettings airCertificatePath="E:/MyWorkFile/Anvsoft/certificates/win/sample_win.p12" airTimestamp="true" anePathSet="true" version="1">
         <airExcludes/>
         <anePaths/>
       </airSettings>

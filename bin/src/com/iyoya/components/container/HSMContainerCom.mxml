@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:VGroup xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:theme="com.iyoya.components.container.theme.*"
+		 xmlns:photo="com.iyoya.components.container.photo.*"
+		 xmlns:publish="com.iyoya.components.container.publish.*"
+		 gap="0">
+	
+	<fx:Script>
+		<![CDATA[
+			import com.iyoya.utils.language.LanguageManager;
+		]]>
+	</fx:Script>
+	<s:Group width="100%">
+		<mx:HRule top="-1" width="100%"/>
+		<mx:ToggleButtonBar width="360" height="60" dataProvider="{toggleBtnBarViewStack}" paddingTop="-1"/>
+		<mx:HRule bottom="0" width="100%"/>
+	</s:Group>
+	<mx:ViewStack id="toggleBtnBarViewStack" creationPolicy="all" width="100%" height="100%">
+		<s:NavigatorContent id="photoPanel" label="{LanguageManager.getInstance().getString('20001')}" icon="@Embed('assets/img/photo.png')">
+			<photo:PhotoPanelCom id="photoPanelCom"
+								 width="100%"
+								 height="100%"
+								 top="5"
+								 bottom="0"
+								 left="2"
+								 right="2"/>
+		</s:NavigatorContent>
+		<s:NavigatorContent id="themePanel" label="{LanguageManager.getInstance().getString('30001')}" icon="@Embed('assets/img/theme.png')">
+			<theme:ThemePanelCom id="themePanelCom"
+								 width="100%"
+								 height="100%"
+								 top="5"
+								 bottom="0"
+								 left="2"
+								 right="2"/>
+		</s:NavigatorContent>
+		<s:NavigatorContent id="publishPanel" label="{LanguageManager.getInstance().getString('40001')}" icon="@Embed('assets/img/publish.png')">
+			<publish:PublishPanelCom id="publishPanelCom"
+									 width="100%"
+									 height="100%"
+									 top="5"
+									 bottom="0"
+									 left="2"
+									 right="2"/>
+		</s:NavigatorContent>
+	</mx:ViewStack>
+</s:VGroup>

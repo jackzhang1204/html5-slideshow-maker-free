@@ -3,10 +3,10 @@
 					   xmlns:s="library://ns.adobe.com/flex/spark"
 					   xmlns:mx="library://ns.adobe.com/flex/mx"
 					   showStatusBar="false"
-					   skinClass="com.anvsoft.skins.WindowedApplicationSkin"
-					   xmlns:container="com.anvsoft.components.container.*"
-					   xmlns:header="com.anvsoft.components.header.*"
-					   xmlns:footer="com.anvsoft.components.footer.*"
+					   skinClass="com.iyoya.skins.WindowedApplicationSkin"
+					   xmlns:container="com.iyoya.components.container.*"
+					   xmlns:header="com.iyoya.components.header.*"
+					   xmlns:footer="com.iyoya.components.footer.*"
 					   frameRate="30"
 					   preinitialize="new AppMain(this)">
 	

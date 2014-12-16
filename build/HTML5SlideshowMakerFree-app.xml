@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<application xmlns="http://ns.adobe.com/air/application/3.6">
+<application xmlns="http://ns.adobe.com/air/application/3.8">
 
 <!-- Adobe AIR Application Descriptor File Template.
 
@@ -15,19 +15,19 @@
 
 	<!-- A universally unique application identifier. Must be unique across all AIR applications.
 	Using a reverse DNS-style name as the id is recommended. (Eg. com.example.ExampleApplication.) Required. -->
-	<id>com.anvsoft.html5-slideshow-maker-lite</id>
+	<id>com.iyoya.html5-slideshow-maker-free</id>
 
 	<!-- Used as the filename for the application. Required. -->
 	<filename>HTML5SlideshowMakerFree</filename>
 
 	<!-- The name that is displayed in the AIR application installer. 
 	May have multiple values for each language. See samples or xsd schema file. Optional. -->
-	<name>Anvsoft HTML5 Slideshow Maker Free 1.9.0</name>
+	<name>iYoya HTML5 Slideshow Maker Free 2.0.0</name>
 	
 	<!-- A string value of the format <0-999>.<0-999>.<0-999> that represents application version which can be used to check for application upgrade. 
 	Values can also be 1-part or 2-part. It is not necessary to have a 3-part value.
 	An updated version of application must have a versionNumber value higher than the previous version. Required for namespace >= 2.5 . -->
-	<versionNumber>1.9.0</versionNumber>
+	<versionNumber>1.9.1</versionNumber>
 		         
 	<!-- A string value (such as "v1", "2.5", or "Alpha 1") that represents the version of the application, as it should be shown to users. Optional. -->
 	<!-- <versionLabel></versionLabel> -->
@@ -37,7 +37,7 @@
 	<description>HTML5 Slideshow Maker helps you make a HTML5 canvas slideshow that best fits your website yet be search engine friendly. You can create tidy embed code of slideshow without much code writing knowledge. With a intuitive built-in panel for full customizations, you can decide any properties in your slideshow within seconds.</description>
 	
 	<!-- Copyright information. Optional -->
-	<copyright>Copyright © 2011-2013 Anvsoft, Inc.</copyright>
+	<copyright>Copyright © 2011-2014 iYoya, Inc.</copyright>
 
 	<!-- Publisher ID. Used if you're updating an application created prior to 1.5.3 -->
 	<!-- <publisherID></publisherID> -->
@@ -119,10 +119,10 @@
 	<supportedProfiles>desktop extendedDesktop</supportedProfiles>
 	
 	<!-- The subpath of the standard default installation location to use. Optional. -->
-	<installFolder>Anvsoft</installFolder>
+	<installFolder>iYoya</installFolder>
 
 	<!-- The subpath of the Programs menu to use. (Ignored on operating systems without a Programs menu.) Optional. -->
-	<programMenuFolder>Anvsoft/HTML5 Slideshow Maker Free</programMenuFolder>
+	<programMenuFolder>iYoya/HTML5 Slideshow Maker Free</programMenuFolder>
 
 	<!-- The icon the system uses for the application. For at least one resolution,
 	specify the path to a PNG file included in the AIR package. Optional. -->
@@ -153,16 +153,16 @@
 		<fileType>
 
 			<!-- The name that the system displays for the registered file type. Required. -->
-			<name>Anvsoft.HSMProject</name>
+			<name>iYoya.HSMProject</name>
 
 			<!-- The extension to register. Required. -->
 			<extension>hsm</extension>
 			
 			<!-- The description of the file type. Optional. -->
-			<description>Anvsoft HTML5 Slideshow Maker Project File</description>
+			<description>iYoya HTML5 Slideshow Maker Project File</description>
 			
 			<!-- The MIME content type. -->
-			<contentType>application/hsm.anvsoft.project-file</contentType>
+			<contentType>application/hsm.iyoya.project-file</contentType>
 			
 			<!-- The icon to display for the file type. Optional. -->
 			<icon>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<options:ImageOptionsAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		  xmlns:s="library://ns.adobe.com/flex/spark" 
+		  xmlns:mx="library://ns.adobe.com/flex/mx"
+		  xmlns:options="com.iyoya.components.header.popup.menu.options.*"
+		  top="5" bottom="5" left="5" right="5">
+	
+	<s:Label id="imgOptionsLabel" text="Image Options" width="100%" height="30" paddingLeft="10" verticalAlign="middle" backgroundColor="0x222222"/>
+	<s:VGroup width="100%" paddingTop="10" paddingBottom="10" paddingLeft="10" paddingRight="10">
+		<s:Label id="imgScaleOptionsLabel" text="Image Scale Options"/>
+		<s:BorderContainer width="100%" backgroundColor="0x333333">
+			<s:TileGroup
+				orientation="columns"
+				requestedColumnCount="2"
+				top="10" bottom="10" left="10" right="10">
+				<s:RadioButton id="imgScaleToFitRadioButton" label="Scale to fit" groupName="imgScaleOptions" name="scaleToFit" selected="true"/>
+				<s:RadioButton id="imgScaleToFillRadioButton" label="Scale to fill" groupName="imgScaleOptions" name="scaleToFill"/>
+				<s:HGroup verticalAlign="middle">
+					<s:Label id="imgBgColorLabel" text="Background Color"/>
+					<mx:ColorPicker id="imgBgColorPicker"/>
+				</s:HGroup>
+			</s:TileGroup>
+		</s:BorderContainer>
+		<s:Label id="thumScaleOptionsLabel" text="Thumbnail Scale Options" paddingLeft="5" paddingTop="10"/>
+		<s:BorderContainer width="100%" backgroundColor="0x333333">
+			<s:TileGroup
+				orientation="columns"
+				requestedColumnCount="2"
+				top="10" bottom="10" left="10" right="10">
+				<s:RadioButton id="thumScaleToFitRadioButton" label="Scale to fit" groupName="thumScaleOptions" name="scaleToFit" selected="true"/>
+				<s:RadioButton id="thumScaleToFillRadioButton" label="Scale to fill" groupName="thumScaleOptions" name="scaleToFill"/>
+				<s:HGroup verticalAlign="middle">
+					<s:Label id="thumBgColorLabel" text="Background Color"/>
+					<mx:ColorPicker id="thumBgColorPicker"/>
+				</s:HGroup>
+			</s:TileGroup>
+		</s:BorderContainer>
+		<s:HGroup verticalAlign="middle">
+			<s:Label id="jpgQualityLabel" text="JPEG Quality:"/>
+			<s:NumericStepper id="jpgQualityNumStepper" minimum="1" maximum="100"/>
+		</s:HGroup>
+	</s:VGroup>
+</options:ImageOptionsAS>

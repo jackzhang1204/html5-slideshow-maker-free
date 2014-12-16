@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preview:ThemeCategoryAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx"
+					   xmlns:preview="com.iyoya.components.container.theme.basic.preset.preview.*"
+					   width="100%">
+	
+	<s:Label id="displayName"/>
+	<mx:HRule width="100%" strokeColor="0x555555"/>
+	<s:TileGroup id="ThemeCategoryTileGroup"
+				 width="100%"
+				 paddingTop="5"
+				 paddingBottom="25"
+				 paddingLeft="5"
+				 paddingRight="5"
+				 horizontalGap="40"
+				 verticalGap="10"
+				 requestedRowCount="1"/>
+</preview:ThemeCategoryAS>

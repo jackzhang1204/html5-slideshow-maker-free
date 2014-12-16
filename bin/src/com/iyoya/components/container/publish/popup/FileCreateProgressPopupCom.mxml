@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<popup:FileCreateProgressPopupAS
+		xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark"
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 xmlns:popup="com.iyoya.components.container.publish.popup.*"
+		 title="Publish"
+		 width="490"
+		 height="270">
+	
+	<s:VGroup top="8" bottom="8" left="8" right="8" gap="8">
+		<s:Label id="fileCreateProgessTopLabel" text="Publish Flash Slide in Progress..."/>
+		<s:BorderContainer width="100%" height="100%" backgroundColor="0x3a3a3a" cornerRadius="5">
+			<s:VGroup id="progressVgroup" top="12" bottom="12" left="12" right="12" verticalAlign="middle">
+				<s:Label id="progressTitleLabel" width="100%" lineBreak="explicit" text="Creating HTML5 Slideshow..."/>
+				<mx:ProgressBar id="progressBar" width="100%" trackHeight="30" minimum="0" maximum="100" direction="right" mode="manual"/>
+				<s:Label id="progressInfoLabel" width="100%" lineBreak="explicit"/>
+			</s:VGroup>
+			<s:VGroup id="completeVgroup" top="12" bottom="12" left="12" right="12" gap="8" verticalAlign="middle">
+				<s:Label id="createSuccessfullyLabel" text="Congratulations! The HTML5 Slideshow has been produced successfully."/>
+				<s:Spacer height="5"/>
+				<s:HGroup>
+					<s:Label id="wouldYouLikeToLabel" text="Would you like to:"/>
+					<s:Spacer width="30"/>
+					<s:VGroup gap="8">
+						<s:Button id="openHtmlFileButton" width="200" label="View HTML5 Slideshow"/>
+						<s:Button id="openOutputFolderButton" width="200" label="Open Output Folder"/>
+						<s:Button id="uploadToInternetButton" width="200" label="Upload to Internet &amp; Share"/>
+					</s:VGroup>
+				</s:HGroup>
+			</s:VGroup>
+			<s:HGroup id="uploadHgroup" top="10" bottom="10" left="5" right="15">
+				<s:Group height="100%">
+					<s:Image top="20" right="20" source="@Embed('assets/img/go2albumLogo.png')"/>
+				</s:Group>
+				<s:VGroup width="100%" height="100%" gap="2">
+					<s:Label id="setAlbumInformationLabel" text="Set some information for your album:"/>
+					<s:HGroup width="100%" paddingTop="5" verticalAlign="middle">
+						<s:Label id="albumTitleLabel" text="Title:" width="90"/>
+						<s:TextInput id="albumTileTI" width="100%"/>
+					</s:HGroup>
+					<s:HGroup width="100%">
+						<s:Label id="albumDesLabel" text="Description:" width="90"/>
+						<s:TextArea id="albumDescriptionTI" width="100%" height="50"/>
+					</s:HGroup>
+					<s:HGroup width="100%" verticalAlign="middle">
+						<s:Label id="albumTagLabel" text="Tags:" width="90"/>
+						<s:TextInput id="albumTagsTI" width="100%"/>
+					</s:HGroup>
+					<s:HGroup width="100%" paddingTop="5">
+						<s:Label id="albumPrivacyLabel" width="90" text="Privacy:"/>
+						<s:RadioButton id="albumPublicRBtn" label="Public" width="90" groupName="albumPrivacy" name="public" selected="true"/>
+						<s:RadioButton id="albumPrivateRBtn" label="Private" width="90" groupName="albumPrivacy" name="private"/>
+					</s:HGroup>
+				</s:VGroup>
+			</s:HGroup>
+			<s:VGroup id="responseVgroup" top="15" bottom="15" left="15" right="15">
+				<s:Label id="responseTitleLabel" text="Upload successfully! Please click the following link to open."/>
+				<s:Label id="albumLinkLabel" visible="false" width="100%" color="0xff9900" textDecoration="underline" buttonMode="true"/>
+				<s:Group width="100%" height="100%">
+					<s:Button id="viewUplodLogBtn" visible="false" label="View Upload Log..." bottom="10" right="20"/>
+				</s:Group>
+			</s:VGroup>
+		</s:BorderContainer>
+		<s:Spacer height="5"/>
+		<s:HGroup horizontalAlign="right" width="100%">
+			<s:Group>
+				<s:Button id="uploadButton" label="Upload" width="80" visible="false"/>
+				<s:Button id="cancelPopButton" label="Cancel" width="80"/>
+			</s:Group>
+			<s:Button id="closePopButton" label="Close" width="80"/>
+		</s:HGroup>
+	</s:VGroup>
+</popup:FileCreateProgressPopupAS>

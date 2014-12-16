@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preview:PreviewPanelAS xmlns:fx="http://ns.adobe.com/mxml/2009" 
+						xmlns:s="library://ns.adobe.com/flex/spark" 
+						xmlns:mx="library://ns.adobe.com/flex/mx" 
+						xmlns:preview="com.iyoya.components.container.photo.preview.*">
+	
+	<s:VGroup width="100%" height="100%" gap="0">
+		<!--1.Add/Remove Photo Controls Button-->
+		<s:BorderContainer width="100%" height="35"
+						   borderColor="0x222222"
+						   backgroundColor="0x333333">
+			<s:HGroup width="100%" height="100%"
+					  verticalAlign="middle"
+					  paddingLeft="5">
+				<s:Button id="addPhotoButton" height="25" label="Add" icon="@Embed('assets/img/addPhoto.png')"/>
+				<s:Button id="removePhotoButton" height="25" label="Remove" icon="@Embed('assets/img/removePhoto.png')"/>
+				<s:Button id="removeAllPhotoButton" height="25" label="Remove All" icon="@Embed('assets/img/removeAllPhoto.png')"/>
+			</s:HGroup>
+		</s:BorderContainer>
+		<!--2.Preview Photo Container-->
+		<s:BorderContainer width="100%" height="100%">
+			<s:Scroller width="100%" height="100%">
+				<s:TileGroup id="previewPanelTileGroup" width="100%" height="100%"
+							 horizontalGap="10" verticalGap="10"
+							 paddingTop="5" paddingBottom="5" paddingLeft="5" paddingRight="5"/>
+			</s:Scroller>
+		</s:BorderContainer>
+	</s:VGroup>
+</preview:PreviewPanelAS>

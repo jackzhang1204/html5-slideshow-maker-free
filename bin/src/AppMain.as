@@ -1,10 +1,10 @@
 package
 {
-	import com.anvsoft.events.CommandDispatcher;
-	import com.anvsoft.events.ConfigFileEvent;
-	import com.anvsoft.utils.file.FileManager;
-	import com.anvsoft.utils.system.SystemManager;
-	import com.anvsoft.utils.language.LanguageManager;
+	import com.iyoya.events.CommandDispatcher;
+	import com.iyoya.events.ConfigFileEvent;
+	import com.iyoya.utils.file.FileManager;
+	import com.iyoya.utils.system.SystemManager;
+	import com.iyoya.utils.language.LanguageManager;
 	
 	import flash.events.Event;
 	import flash.filesystem.File;
@@ -82,13 +82,13 @@ package
 	{
 		//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		public static var NAME:String = 'HTML5 Slideshow Maker Free';									                     	//
-		public static var ID:String = 'com.anvsoft.html5-slideshow-maker-lite';                                          		//
-		public static var AUTHOR:String = 'Copyright (c) 2011-2013 Anvsoft, Inc.';					                     		//
-		public static var VERSION:String = 'Free Version 1.9.1';									                         	//
+		public static var ID:String = 'com.iyoya.html5-slideshow-maker-free';                                           		//
+		public static var AUTHOR:String = 'Copyright (c) 2011-2013 iYoya, Inc.';					                     		//
+		public static var VERSION:String = 'Free Version 2.0.0';									                         	//
 		public static var DATE:String = 'June 10th, 2013';											                     	    //
-		public static var WEBSITE:String = 'http://www.html5-slideshow-maker.com';	                     			            //
-		//public static var UPGRADELINK:String = 'http://www.anvsoft.com/html5-slideshow-maker-upgrade.html';           		//
-		public static var UPGRADELINK:String = 'macappstores://itunes.apple.com/us/app/html5-slideshow-maker/id542285462?mt=12';//
+		public static var WEBSITE:String = 'https://github.com/jackzhang1204';	                     			                //
+		//public static var UPGRADELINK:String = 'https://github.com/jackzhang1204/html5-slideshow-maker-free';           		//
+		public static var UPGRADELINK:String = 'https://github.com/jackzhang1204/html5-slideshow-maker-free';                   //
 		public static var isFree:Boolean = true;                                                                              	//
 		//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 		public static var global_movie_width:Number;
@@ -207,14 +207,14 @@ package
 					}
 				}
 				//win global_output_directory////////////
-				var outputFolderPath:String = "Anvsoft/" + NAME + "/output";
+				var outputFolderPath:String = "iYoya/" + NAME + "/output";
 				global_output_directory = global_documents_directory.resolvePath(outputFolderPath);
 				//win global_temp_directory////////////
-				var tempFolderPath:String = "Anvsoft/" + NAME + "/temp";
+				var tempFolderPath:String = "iYoya/" + NAME + "/temp";
 				global_temp_directory = global_documents_directory.resolvePath(tempFolderPath);
 				
 				//change upgrade link////////////////////////////////
-				UPGRADELINK = "http://www.html5-slideshow-maker.com/download.html";
+				UPGRADELINK = "https://github.com/jackzhang1204/html5-slideshow-maker-free";
 			}
 			if(global_output_directory.exists == false)
 			{
