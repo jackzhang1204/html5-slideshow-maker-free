@@ -5,13 +5,8 @@
 ## 概述 ##
 HTML5 Slideshow Maker Free是一个将图片简单快捷转成HTML5相册的小型免费应用软件。该软件采用Adobe AIR技术开发，实现了一次开发同时发布到windows, Mac等多平台。
 
-<<<<<<< HEAD
 1. AIR版安装下载地址：[http://pan.baidu.com/s/1mgqTvhm](http://pan.baidu.com/s/1mgqTvhm)
 2. EXE版安装下载地址：[http://pan.baidu.com/s/1sjwiOWH](http://pan.baidu.com/s/1sjwiOWH)
-=======
-1. AIR安装版下载地址：[http://pan.baidu.com/s/1mgqTvhm](http://pan.baidu.com/s/1mgqTvhm)
-2. EXE安装版下载地址：[http://pan.baidu.com/s/1sjwiOWH](http://pan.baidu.com/s/1sjwiOWH)
->>>>>>> f8a362d1a51cc12f6ce8afcddf84551eac9fb22e
 
 
 ## Author: ##
